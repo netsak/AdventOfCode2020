@@ -11,9 +11,11 @@ def find_sum_and_multiply_items(target, times):
         if items_sum == target:
             items_product = reduce((lambda x, y: x * y), items)
             print(f"items={items} sum={items_sum} product={items_product}")
-            return
+            return items_product
 
 
 if __name__ == "__main__":
-    find_sum_and_multiply_items(2020, 2)
-    find_sum_and_multiply_items(2020, 3)
+    result = find_sum_and_multiply_items(2020, 2)
+    assert result == 539851
+    result = find_sum_and_multiply_items(2020, 3)
+    assert result == 212481360
