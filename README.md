@@ -23,3 +23,10 @@ Actually just run the day file:
 ```bash
 $ python3 day-01.py
 ```
+Okay on day three I needed (wanted!) more-itertools so best use an virtual environment:
+```
+$ python3 -m venv venv
+$ . venv/bin/activate
+$ pip install -r requirements.txt
+$ python day-03.py
+```
