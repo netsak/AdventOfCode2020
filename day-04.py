@@ -46,7 +46,7 @@ def complex_validator(passport):
 
 def count_valid_passwords(passwords, validator):
     """Count all valid passwords"""
-    count = len(list(filter(validator, passports)))
+    count = len(list(filter(validator, passwords)))
     print(f"Found {count} valid passwords")
     return count
 
