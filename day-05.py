@@ -2,7 +2,7 @@
 from functools import reduce
 
 def get_boarding_passes(filename):
-    """Load the passport file and returns all passports as objects"""
+    """Load the boarding passes file and returns all boarding passes as objects"""
     with open(filename) as f:
         boarding_passes = [parse_boarding_pass(line.strip()) for line in f.readlines()]
         return boarding_passes
