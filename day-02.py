@@ -15,7 +15,7 @@ def is_valid_new(args):
     This is the official Toboggan Corporate Policy.
     """
     (pos1, pos2, char, password) = args
-    positions = (pos1 -1, pos2 -1) # Toboggan Corporate Policies have no concept of "index zero"
+    positions = (pos1 - 1, pos2 - 1) # Toboggan Corporate Policies have no concept of "index zero"
     matches = [password[i] for i in positions if password[i] == char]
     return len(matches) == 1
 

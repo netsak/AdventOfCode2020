@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from re import compile
 
+
 token_regex = compile(r"(\w+):(\S+)")
 color_regex = compile(r"^#[0-9a-fA-F]{6}$")
 height_regex = compile(r"(?P<value>\d+)(?P<unit>cm|in)")

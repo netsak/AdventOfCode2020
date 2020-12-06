@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 from functools import reduce
+from operator import mul
 
 def multiply(iter):
     """Multiplies each element of an iterator"""
-    product = reduce((lambda x, y: x * y), iter)
+    product = reduce(mul, iter)
     print(f"The product of all encountered trees is {product}")
     return product
 

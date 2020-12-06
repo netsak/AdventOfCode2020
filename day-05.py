@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-from functools import reduce
 
 def get_boarding_passes(filename):
     """Load the boarding passes file and returns all boarding passes as objects"""
