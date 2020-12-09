@@ -1,4 +1,4 @@
-# Day 5: Handheld Halting
+# Day 8: Handheld Halting
 
 ## Part One
 

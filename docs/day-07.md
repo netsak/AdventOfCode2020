@@ -1,4 +1,4 @@
-# Day 5: Handy Haversacks
+# Day 7: Handy Haversacks
 
 ## Part One
 
