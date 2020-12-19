@@ -86,7 +86,7 @@ if __name__ == "__main__":
     assert result == 51
     result = sum_all("data/day-18-example1.txt", Advanced)
     assert result == 46 + 1445 + 669060 + 23340
-    # print("======================================== Reality ========================================")
+    print("======================================== Reality ========================================")
     result = sum_all("data/day-18.txt")
     assert result == 11076907812171
     result = sum_all("data/day-18.txt", Advanced)
