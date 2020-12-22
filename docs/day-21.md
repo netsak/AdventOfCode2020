@@ -1,4 +1,4 @@
-# Day 18: Allergen Assessment
+# Day 21: Allergen Assessment
 
 ## Part One
 You reach the train's last stop and the closest you can get to your vacation island without getting wet. There aren't even any boats here, but nothing can stop you now: you build a raft. You just need a few days' worth of food for your journey.
